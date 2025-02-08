@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
 	e.preventDefault();
 	const userInput = codeInput.value.trim();
 	if (userInput === secretCode) {
-		resultDiv.innerHTML = 'Baby';
+		resultDiv.innerHTML = 'ohhh hello my beautiful girlfriend, Welcome';
 		window.location.href = nextPageUrl; // Redirect to new page
 	} else {
 		resultDiv.innerHTML = 'this is not my angry bird stranger where is my princess';
